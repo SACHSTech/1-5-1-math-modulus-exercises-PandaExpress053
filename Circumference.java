@@ -7,9 +7,10 @@ class Circumference extends ConsoleProgram {
   
   public void run() {
     
-    // declare variables
+    //declare variables
     double dblRadius;
     double dblCircumference;
+
     //input
     dblRadius = readDouble("Please input desired radius: ");
 
@@ -18,7 +19,5 @@ class Circumference extends ConsoleProgram {
 
     //output
     System.out.println("The circumference of the circle is " + dblCircumference);
-
-
   }
 }
