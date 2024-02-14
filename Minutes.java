@@ -12,7 +12,7 @@ class Minutes extends ConsoleProgram {
     int intHours;
 
     //input 
-    intMins = readInt("Please enter number of minuts: ");
+    intMins = readInt("Please enter number of minutes: ");
 
     //calculation
     intDays = intMins / 1440;
