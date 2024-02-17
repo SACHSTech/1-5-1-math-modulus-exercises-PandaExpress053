@@ -4,6 +4,7 @@ class Rads extends ConsoleProgram {
   * Description
   * @author:
   */
+
   
   public void run() {
     
@@ -17,7 +18,7 @@ class Rads extends ConsoleProgram {
     dblRads = (dblDegs * Math.PI) / 180;
 
     //output
-    System.out.println("This is conversion in Radians: " + dblRads);
+    System.out.println( dblDegs + " degrees converts to " + Math.round(dblRads)+ " radians!");
 
   }
 }
