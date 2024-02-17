@@ -9,7 +9,7 @@ class Cos3rd extends ConsoleProgram {
 
   public void run() {
 
-    //Initi15alization
+    //Initialization
     double dblSideA, dblSideB, dblAngC, dblSideC;
 
     //input
