@@ -2,7 +2,7 @@ class Minutes extends ConsoleProgram {
 
   /**
   * Description
-  * @author:
+  * @author: E. Fung
   */
   
   public void run() {

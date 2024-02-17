@@ -1,26 +1,27 @@
 class Cos3rd extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Cos3rd.java that lets you enter two sides of a triangle and the contained 
+  * angle, and that will use the cosine law to calculate and print the third side
+  * @author: E. Fung
   */
-  
+
 
   public void run() {
 
-    //Initialization
-    double sideA, sideB, angC, sideC;
+    //Initi15alization
+    double dblSideA, dblSideB, dblAngC, dblSideC;
 
     //input
-    sideA = readDouble(("Please input side length A: "));
-    sideB = readDouble(("Please input side length B: "));
-    angC = readDouble(("Please input angle C: "));
+    dblSideA = readDouble(("Please input side length A: "));
+    dblSideB = readDouble(("Please input side length B: "));
+    dblAngC = readDouble(("Please input angle C: "));
 
-    //Calculation
-    angC = (angC * Math.PI) / 180;
-    sideC = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2) - (2 * sideA * sideB * Math.cos(angC)));
+    //Conversion and Calculation
+    dblAngC = (dblAngC * Math.PI) / 180;
+    dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - (2 * dblSideA * dblSideB * Math.cos(dblAngC)));
 
     //Output
-    System.out.println("The length of side length C is: " + sideC);
+    System.out.println("The length of side length C is: " + dblSideC);
   }
 }

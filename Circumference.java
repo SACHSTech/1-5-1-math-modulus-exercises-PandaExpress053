@@ -1,8 +1,9 @@
 class Circumference extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * A program Circumference.java that computes the circumference 
+  * of a circle given a radius from user entry, and then prints circumference
+  * @author: E. Fung
   */
   
   public void run() {
