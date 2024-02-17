@@ -9,12 +9,19 @@ class AreaSin extends ConsoleProgram {
   public void run() {
     
     //Initialization
-    double sideA, sideB, angC, sideC;
+    double dblSideA, dblSideB, dblAngC, dblArea;
 
     //input
-    sideA = readDouble(("Please input side length A: "));
-    sideB = readDouble(("Please input side length B: "));
-    angC = readDouble(("Please input angle C: "));
+    dblSideA = readDouble(("Please input side length A: "));
+    dblSideB = readDouble(("Please input side length B: "));
+    dblAngC = readDouble(("Please input angle C: "));
+    
+    //Conversion and Calculation
+    dblAngC = (dblAngC * Math.PI) / 180;
+    dblArea = (dblSideA * dblSideB * Math.sin(dblAngC)) / 2;
+
+    //Output
+    System.out.println("The area of the triangle is: " + dblArea);
     
     
   }
