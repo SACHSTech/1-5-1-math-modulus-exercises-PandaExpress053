@@ -21,7 +21,7 @@ class AreaSin extends ConsoleProgram {
     dblArea = (dblSideA * dblSideB * Math.sin(dblAngC)) / 2;
 
     //Output
-    System.out.println("The area of the triangle is: " + dblArea);
+    System.out.println("The area of the triangle is: " + dblArea + " units squared");
     
     
   }

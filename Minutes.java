@@ -1,7 +1,8 @@
 class Minutes extends ConsoleProgram {
 
   /**
-  * Description
+  * Minutes.java lets you enter a number of minutes, and that will 
+  * calculate the number of days, hours and minutes that represents.
   * @author: E. Fung
   */
   
