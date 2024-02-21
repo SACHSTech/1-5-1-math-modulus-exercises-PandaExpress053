@@ -6,17 +6,17 @@ class Power extends ConsoleProgram {
   */
   
   public void run() {
-    //Variables
+    // Variables
     double dblBase, dblExponenet, dblAns;
 
-    //Input
+    // Input
     dblBase = readDouble("Please enter base value: ");
     dblExponenet = readDouble("Please enter exponenet value: ");
 
-    //Calculation
+    // Calculation
     dblAns = Math.pow(dblBase, dblExponenet);    
 
-    //Output
+    // Output
     System.out.println(dblBase + " to the power of " + dblExponenet + " equals " + dblAns);
     
     

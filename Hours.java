@@ -11,14 +11,14 @@ class Hours extends ConsoleProgram {
     int intDays;
     int intHours;
 
-    //input 
+    // input 
     intHours = readInt("Please enter number of hours: ");
 
-    //calculation
+    // calculation
     intDays = intHours / 24;
     intHours = intHours % 24;
 
-    //output
+    // output
     System.out.println("This converts to " + intDays + " days, and " + intHours + " hours");
     
     

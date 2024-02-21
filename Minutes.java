@@ -12,15 +12,15 @@ class Minutes extends ConsoleProgram {
     int intDays;
     int intHours;
 
-    //input 
+    // input 
     intMins = readInt("Please enter number of minutes: ");
 
-    //calculation
+    // calculation
     intDays = intMins / 1440;
     intHours = (intMins % 1440) / 60;
     intMins = (intMins % 1440) % 60;
 
-    //output
+    // output
     System.out.println("This converts to " + intDays + " days, " + intHours + " hours, and " + intMins + " minutes");
     
   }

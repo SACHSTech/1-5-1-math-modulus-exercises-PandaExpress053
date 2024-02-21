@@ -6,16 +6,16 @@ class Km_to_Miles extends ConsoleProgram {
   */
   
   public void run() {
-    //Variables
+    // Variables
     double dblKm, dblMi;
 
-    //Input
+    // Input
     dblKm = readDouble("Please enter distance in kilometres: ");
 
-    //Calculation
+    // Calculation
     dblMi = dblKm * 0.621371;
 
-    //Output
+    // Output
     System.out.println(dblKm + " kilometres converts to " + dblMi + " miles");
     
   }

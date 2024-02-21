@@ -9,19 +9,19 @@ class Cos3rd extends ConsoleProgram {
 
   public void run() {
 
-    //Initialization
+    // Initialization
     double dblSideA, dblSideB, dblAngC, dblSideC;
 
-    //input
+    // input
     dblSideA = readDouble(("Please input side length A: "));
     dblSideB = readDouble(("Please input side length B: "));
     dblAngC = readDouble(("Please input angle C: "));
 
-    //Conversion and Calculation
+    // Conversion and Calculation
     dblAngC = (dblAngC * Math.PI) / 180;
     dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - (2 * dblSideA * dblSideB * Math.cos(dblAngC)));
 
-    //Output
+    // Output
     System.out.println("The length of side length C is: " + dblSideC);
   }
 }

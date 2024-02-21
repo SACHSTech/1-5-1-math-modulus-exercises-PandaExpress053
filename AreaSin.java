@@ -8,19 +8,19 @@ class AreaSin extends ConsoleProgram {
   
   public void run() {
     
-    //Initialization
+    // Initialization
     double dblSideA, dblSideB, dblAngC, dblArea;
 
-    //input
+    // input
     dblSideA = readDouble(("Please input side length A: "));
     dblSideB = readDouble(("Please input side length B: "));
     dblAngC = readDouble(("Please input angle C: "));
     
-    //Conversion and Calculation
+    // Conversion and Calculation
     dblAngC = (dblAngC * Math.PI) / 180;
     dblArea = (dblSideA * dblSideB * Math.sin(dblAngC)) / 2;
 
-    //Output
+    // Output
     System.out.println("The area of the triangle is: " + dblArea + " units squared");
     
     

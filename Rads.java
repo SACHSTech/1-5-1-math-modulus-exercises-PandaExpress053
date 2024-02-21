@@ -11,13 +11,13 @@ class Rads extends ConsoleProgram {
     // initialize variables
     double dblRads, dblDegs;
 
-    //input
+    // input
     dblDegs = readDouble("Please enter Degrees: ");
     
-    //conversion
+    // conversion
     dblRads = (dblDegs * Math.PI) / 180;
 
-    //output
+    // output
     System.out.println( dblDegs + " degrees converts to " + Math.round(dblRads) + " radians!");
 
   }
