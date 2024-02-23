@@ -1,13 +1,24 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Rads.java converts degree measures to radian measures, prints conversion in radians
+  * @author: E. Fung
   */
+
   
   public void run() {
     
-    // start coding here
+    // initialize variables
+    double dblRads, dblDegs;
+
+    // input
+    dblDegs = readDouble("Please enter Degrees: ");
     
+    // conversion
+    dblRads = (dblDegs * Math.PI) / 180;
+
+    // output
+    System.out.println( dblDegs + " degrees converts to " + Math.round(dblRads) + " radians!");
+
   }
 }
